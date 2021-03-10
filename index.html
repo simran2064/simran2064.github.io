@@ -97,10 +97,10 @@
                     <br>
                 <p>
                     <form id="contactform" action="https://formspree.io/f/mbjpngdy" method="POST">    
-                        <input id="nameInput" type="text" name="name" placeholder="Your name">
+                        <input type="text" name="name" placeholder="Your name">
                         <input type="email" name="_replyto" placeholder="Your email">
                         <textarea name="message" placeholder="Your message"></textarea>
-                        <button class="btn_one" type="submit" onclick="document.getElementById('nameInput').value = ''">Send</button>
+                        <button class="btn_one" type="submit">Send</button>
                    </form>
                     
                 </p>
@@ -114,6 +114,7 @@
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
+    <script>function clearField() { document.contactform.reset();}</script>
 </body>
 </html>
 
