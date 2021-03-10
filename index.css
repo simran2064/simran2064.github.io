@@ -12,7 +12,7 @@ body {
 }
 #loading {
     width: 100vw;
-    height: 100vh;
+    height: 100vh;zz
     position: fixed;
     background:rgb(4, 1, 71);
     z-index: 999;
@@ -327,7 +327,7 @@ body {
     #contact {
         display:none;
     }
-    #work {
+    #project {
         display:none;
     }
     #footer {
