@@ -114,13 +114,14 @@
     <script src="app.js"></script>
 </body>
 </html>
-
-
-function submitForm() {
+<script>
+        function submitForm() {
    // Get the first form with the name
    // Hopefully there is only one, but there are more, select the correct index
    var frm = document.getElementsByID('contactform')[0];
    frm.submit(); // Submit
    frm.reset();  // Reset
    return false; // Prevent page refresh
-}
+}                
+</script>
+
