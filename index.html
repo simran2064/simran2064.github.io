@@ -96,7 +96,7 @@
                     <br>
                     <br>
                 <p>
-                    <form id="contactform" action="https://formspree.io/f/mbjpngdy" method="POST">    
+                    <form id="contactform" name="emailForm" action="https://formspree.io/f/mbjpngdy" method="POST">    
                         <input type="text" name="name" placeholder="Your name">
                         <input type="email" name="_replyto" placeholder="Your email">
                         <textarea name="message" placeholder="Your message"></textarea>
@@ -116,12 +116,7 @@
 </html>
 <script>
         function submitForm() {
-   // Get the first form with the name
-   // Hopefully there is only one, but there are more, select the correct index
-   var frm = document.getElementsByID('contactform')[0];
-   frm.submit(); // Submit
-   frm.reset();  // Reset
-   return false; // Prevent page refresh
+   document.forms['emailForm'].reset()
 }                
 </script>
 
