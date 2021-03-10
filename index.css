@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1491956175078-460aea0914ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1550&q=80") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -14,7 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(255, 50, 50);
+    background:rgb(4, 1, 71);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border-bottom:12px solid rgb(4, 1, 71);
     border-radius:50%;
     margin:0;
 }
@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    background:rgb(4, 1, 71);
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    background:rgb(4, 1, 71);
     margin-left:-5px;
 }
 #menu {
@@ -79,7 +79,7 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
+    color:rgb(255,255,255);
     font-size:70px;
     text-decoration:underline;
 }
@@ -101,7 +101,7 @@ body {
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
 }
-#work {
+#project {
     width:10vw;
     height:10vw;
     text-align:center;
@@ -137,15 +137,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(4, 1, 71,0.9);
     cursor:pointer;
 }
-#work:hover {
-    background:rgba(255,50,50,0.9);
+#project:hover {
+    background:rgba(4, 1, 71,0.9);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:rgba(4, 1, 71,0.9);
     cursor:pointer;
 }
 #middle table {
@@ -165,13 +165,13 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(255, 50, 50);
+    color:rgb(12, 18, 199);
 }
 .container {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background:rgb(4, 1, 71);
     color:#fff;
     z-index:9;
     position:fixed;
@@ -209,7 +209,7 @@ body {
     text-decoration:underline;
 }
 .container p {
-    font-size:21px;
+     font-size:15px; 
 }
 .btn_one {
     font-size:18px;
@@ -225,13 +225,13 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(255, 50, 50);
+    color:rgb(4, 1, 71);
     background:#fff;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(255, 50, 50);
+    color:rgb(4, 1, 71);
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -295,7 +295,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:rgb(4, 1, 71) ;
 }
 #particles-js {
     position:fixed;
@@ -310,14 +310,14 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: rgb(4, 1, 71); 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8); 
+    background: rgba(4, 1, 71,0.8); 
 }
 ::selection {
 	color: #fff;
-	background: rgb(255, 50, 50);
+	background: rgb(4, 1, 71);
 }
 
 @media (max-width: 800px){ 
@@ -327,7 +327,7 @@ body {
     #contact {
         display:none;
     }
-    #work {
+    #project {
         display:none;
     }
     #footer {
