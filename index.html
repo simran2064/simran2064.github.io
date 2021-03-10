@@ -115,3 +115,10 @@
     <script src="app.js"></script>
 </body>
 </html>
+
+<?php
+if($_POST["Message"]) {
+mail("deo.s.simran@gmail.com", "Here is the sample subject line",
+$_POST["Insert Your Message"]. "From: jane@janedoe.com");
+}
+?>
